@@ -1,0 +1,299 @@
+body {
+  margin:0;
+  background-color: black;
+}
+
+.play {
+	width: 20px;
+    height: 20px;
+    border-color: transparent transparent transparent white;
+    border-style: solid solid solid solid;
+    border-width: 10px 0 10px 15px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}    
+
+.block-bg {
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    background-color: red;
+}
+
+.block-bg2 {
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+
+.marquee1 {
+	width: 40%;
+	height: 10%;
+	position: absolute;
+    top: 12.5%;
+    left: 10%;
+
+    font-size: 80%;
+    font-weight: bold;
+    font-family: Engravers MT;
+
+}
+
+.sentence1 {    
+    font-size: 300%;
+    font-weight: bold;
+    font-family: Engravers MT;
+    color: white;
+    position: absolute;
+    text-align: center;
+    left: 24%;
+    bottom: 50%;
+
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: fadein1; 
+
+}
+
+.sentence2 {
+    font-size: 300%;
+    font-weight: bold;
+    font-family: Engravers MT;
+    color: white;
+    position: absolute;
+    text-align: center;
+    left: 20.5%;
+    bottom: 44%;
+
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: fadein2; 
+
+
+}
+
+.sentence3 {
+    font-size: 300%;
+    font-weight: bold;
+    font-family: Engravers MT;
+    color: white;
+    position: absolute;
+    text-align: center;
+    left: 20.5%;
+    bottom: 38%;
+
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: fadein3; 
+
+
+}
+
+.sentence4 {
+    font-size: 300%;
+    font-weight: bold;
+    font-family: Engravers MT;
+    color: white;
+    position: absolute;
+    text-align: center;
+    left: 25%;
+    bottom: 32%;
+
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: fadein4; 
+
+
+}
+
+.marquee2 {
+	width: 40%;
+	height: 10%;
+	position: absolute;
+    top: 86%;
+    left: 10%;
+
+    font-size: 80%;
+    font-weight: bold;
+    font-family: Engravers MT;
+
+}
+
+img {
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+
+
+.actor1 {
+    font-size: 80%;
+    font-weight: bold;
+    font-family: Helvetica Neue;
+    color: black;
+    position: absolute;
+    text-align: left;
+    left: 52%;
+    bottom: 84%;
+
+}
+
+.actor2 {
+    font-size: 80%;
+    font-weight: bold;
+    font-family: Helvetica Neue;
+    color: black;
+    position: absolute;
+    text-align: right;
+    left: 83.5%;
+    bottom: 84%;
+
+}
+
+.notice {
+    font-size: 80%;
+    font-weight: bold;
+    font-family: Helvetica Neue;
+    color: white;
+    position: absolute;
+    text-align: center;
+    left: 68%;
+    bottom: 58%;
+
+    animation-name: fadein5;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+
+ }
+
+.producer {
+    font-size: 80%;
+    font-weight: bold;
+    font-family: Engravers MT;
+    color: white;
+    position: absolute;
+    text-align: center;
+    left: 64%;
+    bottom: 55.5%;
+
+    animation-name: fadein5;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+
+ }
+    
+.title {
+    font-size: 550%;
+    font-weight: bold;
+    font-family: Engravers MT;
+    color: red;
+    position: absolute;
+    text-align: center;
+    left: 61.5%;
+    bottom: 33.5%;
+
+    animation-name: fadein5;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+
+}
+
+.date {
+    font-size: 150%;
+    font-weight: bold;
+    font-family: Engravers MT;
+    color: black;
+    position: absolute;
+    text-align: center;
+    left: 65.5%;
+    bottom: 8%;
+
+}
+
+
+
+
+@-webkit-keyframes fadein1 { 
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+    	opacity: 0;
+    }
+}
+
+@-webkit-keyframes fadein2 { 
+    0% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 1;
+    }
+    100% {
+    	opacity: 0;
+    }
+}
+
+@-webkit-keyframes fadein3 { 
+    0% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+    	opacity: 0;
+    }
+}
+
+@-webkit-keyframes fadein4 { 
+    0% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+    	opacity: 0;
+    }
+}
+@-webkit-keyframes fadein5 { 
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }    
+}
+
+
